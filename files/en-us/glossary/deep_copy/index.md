@@ -41,7 +41,7 @@ Because a deep copy shares no references with its source object, any changes mad
 ```js
 // Change the value of the 'list' property in ingredientsListDeepCopy.
 ingredientsListDeepCopy[1].list = ["rice flour", "water"];
-// The 'list' property does not change in ingredients_list.
+// The 'list' property does not change in ingredientsList.
 console.log(ingredientsList[1].list);
 // Array(3) [ "eggs", "flour", "water" ]
 ```
